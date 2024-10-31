@@ -1,0 +1,9 @@
+<launch>
+    <node name="usb_cam_node" pkg="usb_cam_node" type="usb_cam_node.py" output="screen">
+        <param name="camera_index" value="0" />
+        <param name="rate_hz" value="10" />
+        <param name="flip_image" value="true" />
+        <param name="width" value="640" />
+        <param name="height" value="480" />
+    </node>
+</launch>
