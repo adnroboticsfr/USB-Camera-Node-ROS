@@ -82,7 +82,7 @@ def main():
         # Calculer et afficher le temps de traitement de l'image
         end_time = time.time()
         processing_time = end_time - start_time
-        rospy.loginfo(f"Processing time per frame: {processing_time:.4f} seconds")
+        #rospy.loginfo(f"Processing time per frame: {processing_time:.4f} seconds")
 
         rate.sleep()
 

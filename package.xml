@@ -1,12 +1,20 @@
-<?xml version="1.0"?>
 <package format="2">
   <name>usb_camera_node</name>
-  <version>0.1.0</version>
-  <description>USB camera node for ROS</description>
+  <version>0.0.1</version>
+  <description>USB Camera Node for ROS</description>
+
   <maintainer email="adnroboticsfr@gmail.com">ADNRoboticsfr</maintainer>
-  <license>Apache license</license>
+  <license>License Apache</license>
+
   <buildtool_depend>catkin</buildtool_depend>
-  <depend>rospy</depend>
-  <depend>sensor_msgs</depend>
-  <depend>cv_bridge</depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
 </package>
