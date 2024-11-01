@@ -5,7 +5,7 @@ This project provides a ROS node that captures images from a USB camera and publ
 ## Usage Steps
 
 1. **Set Up Your ROS Environment**:
-   - Ensure you have a working ROS environment (like ROS Noetic) and all necessary packages installed (such as `cv_bridge`, `sensor_msgs`, etc.).
+   - Ensure you have a working ROS environment and all necessary packages installed (such as `cv_bridge`, `sensor_msgs`, etc.).
 
 2. **Create a ROS Package**:
    - If not already done, create a new ROS package in your workspace:
