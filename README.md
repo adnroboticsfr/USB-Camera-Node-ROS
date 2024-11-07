@@ -8,7 +8,7 @@ This project provides a ROS node to capture images from a USB camera and publish
    Clone the repository into your ROS workspace:
    ```bash
    cd ~/catkin_ws/src
-   git clone https://github.com/ros-drivers/usb_cam.git
+   git clone https://github.com/adnroboticsfr/USB-Camera-Node-ROS.git
    ```
 
 2. **Build the Package**  
@@ -24,7 +24,7 @@ This project provides a ROS node to capture images from a USB camera and publish
    Start the USB Camera node using the launch file:
    ```bash
    source ~/catkin_ws/devel/setup.bash
-   roslaunch usb_cam usb_cam-test.launch
+   roslaunch usb_camera_node usb_cam.launch
    ```
 
 ## Verification
